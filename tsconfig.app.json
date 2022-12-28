@@ -1,6 +1,17 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": [
+    "env.d.ts",
+    "/src/**/*",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "sandbox/main.ts",
+    "sandbox/views/*.ts",
+    "sandbox/*.ts",
+    "sandbox/**/*.ts",
+    "sandbox/*.ts"
+  ],
   "exclude": ["src/**/__tests__/*", "src/**/*.cy.ts"],
   "compilerOptions": {
     "composite": true,
