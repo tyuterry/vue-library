@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import tinymceeditor from "../../src/components/tinymce-editor.component.vue";
+import tinymceeditor from "../../../src/components/tinymce-editor.component.vue";
 </script>
 
 <template>
   <tinymceeditor
-    :content="'12314'"
+    :content="'Test'"
     :inline="true"
-    menubar="'false'"
-    toolbar="'false'"
+    menubar="false"
+    toolbar="false"
   ></tinymceeditor>
 </template>
 

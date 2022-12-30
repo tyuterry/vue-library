@@ -1,3 +1,5 @@
-import testBtn from "./components/testBtn.vue";
+import tinymceEditor from "./components/tinymce-editor.component.vue";
+import quillEditor from "./components/quill-editor.component.vue";
 
-export { testBtn };
+export { tinymceEditor };
+export { quillEditor };
