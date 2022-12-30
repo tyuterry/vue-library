@@ -12,7 +12,7 @@ const props = defineProps({
     type: String,
     default: "",
   },
-  mode: {
+  theme: {
     type: String,
     default: "snow",
   },
@@ -43,7 +43,7 @@ var options = {
     toolbar: toobarop,
   },
   placeholder: "Compose an epic...",
-  theme: props.mode,
+  theme: props.theme,
 };
 </script>
 

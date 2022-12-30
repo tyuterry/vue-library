@@ -4,7 +4,7 @@ import tinymceeditor from "../../../src/components/tinymce-editor.component.vue"
 
 <template>
   <tinymceeditor
-    :content="'Test'"
+    :content="'Just type something here!'"
     :inline="true"
     menubar="false"
     toolbar="false"

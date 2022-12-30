@@ -3,7 +3,7 @@ import quilleditor from "../../../src/components/quill-editor.component.vue";
 </script>
 
 <template>
-  <quilleditor :content="'123'"></quilleditor>
+  <quilleditor :content="'Just type something here!'"></quilleditor>
   <router-link to="/">Back</router-link>
 </template>
 

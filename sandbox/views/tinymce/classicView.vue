@@ -3,7 +3,7 @@ import tinymceeditor from "../../../src/components/tinymce-editor.component.vue"
 </script>
 
 <template>
-  <tinymceeditor :content="'Test'"></tinymceeditor>
+  <tinymceeditor :content="'Just type something here!'"></tinymceeditor>
   <!-- <router-link to="/">Back</router-link> -->
 </template>
 
